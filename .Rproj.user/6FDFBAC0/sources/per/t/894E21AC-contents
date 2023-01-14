@@ -1,0 +1,59 @@
+DefaultContentLanguage: en
+author: Yuqi Feng
+baseURL: https://example.com/
+copyright: Copyright © 2008–2023
+disqusShortname: YOURSHORTNAME
+enableInlineShortcodes: yes
+footnoteReturnLinkContents: ^
+googleAnalytics: UA-FAKE
+hasCJKLanguage: yes
+languageCode: cn
+theme: hugo-theme-tokiwa
+title: Feng's website
+markup:
+  goldmark:
+    renderer:
+      unsafe: yes
+  highlight:
+    style: monokailight
+params:
+  bannerFont: fonts/exampleFont
+  description: "Tokiwa-iro is the theme color of this site.\r\n"
+  env: production
+  favicon: img/favicon-32x32.png
+  fuse: yes
+  math: yes
+  postDateFormat: 2006-1-2
+  useChineseFonts: yes
+menu:
+  main:
+    - identifier: post
+      name: Posts
+      url: /post/
+      weight: 1
+    - name: Tags
+      url: /tags/
+      weight: 2
+    - name: Categories
+      url: /categories/
+      weight: 2
+    - identifier: about
+      name: About
+      url: /about/
+      weight: 3
+    - identifier: CV
+      name: CV
+      url: /cv4.pdf
+      weight: 4
+taxonomies:
+  category: categories
+  series: series
+  tag: tags
+social:
+  github: http://github.com/bored2020/
+  mail: 853346463@qq.com
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON
