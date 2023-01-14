@@ -52,6 +52,7 @@ taxonomies:
 social:
   github: http://github.com/bored2020/
   mail: 853346463@qq.com
+  bilibili: https://space.bilibili.com/304683951?spm_id_from=333.1007.0.0
 outputs:
   home:
     - HTML
