@@ -18,7 +18,7 @@ markup:
     style: monokailight
 params:
   bannerFont: fonts/exampleFont
-  description: "一二三四五六七.\r\n"
+  description: "我等春雷，来提醒你爱谁.\r\n"
   env: production
   favicon: img/favicon-32x32.png
   fuse: yes
@@ -45,6 +45,10 @@ menu:
       name: CV
       url: /cv4.pdf
       weight: 4
+    - identifier: BOOK
+      name: BOOK
+      url: /book2.pdf
+      weight: 5
 taxonomies:
   category: categories
   series: series
