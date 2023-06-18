@@ -29,3 +29,20 @@ description: '硕士毕业感想'
 library(knitr)
 knitr::include_graphics("quanban_louti.jpg")
 ```
+
+
+
+
+```{r,fig.cap="全班于火箭广场合影",echo=FALSE,fig.align='center'}
+
+knitr::include_graphics("quanban_huojianguangchang.jpg")
+
+```
+
+
+
+
+# 师门
+
+
+
