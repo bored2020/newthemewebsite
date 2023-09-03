@@ -41,10 +41,6 @@ menu:
       name: About
       url: /about/
       weight: 3
-    - identifier: CV
-      name: CV
-      url: /cv4.pdf
-      weight: 4
     - identifier: BOOK
       name: BOOK
       url: /book2.pdf
